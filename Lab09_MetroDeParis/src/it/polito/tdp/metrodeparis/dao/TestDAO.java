@@ -8,11 +8,8 @@ public class TestDAO {
 
 	public static void main(String[] args) {
 		
-		MetroDAO metroDAO = new MetroDAO();
 		
-		System.out.println("Lista fermate");
-		List<Fermata> fermate = metroDAO.getAllFermate();
-		System.out.println(fermate);
 	}
+	
 
 }
